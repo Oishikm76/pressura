@@ -1,0 +1,31 @@
+name: pressura
+description: Newmark Influence Chart Stress Calculator
+publish_to: "none"
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pdf: ^3.10.8
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+
+# App icons for all platforms
+flutter_icons:
+  image_path: "E:\\My_Work\\Pressura\\pressura.png"   # put a square 1024x1024 PNG here
+  android: true
+  ios: true
+  web: true
+  windows: true
+  macos: true
+  linux: true
